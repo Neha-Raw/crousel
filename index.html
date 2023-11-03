@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Carousel</h1>
+
+    <div class="container">
+        <button class="previous">&lt</button>
+        <img class="img" src="image/butterfly.jpeg">
+        <button class="next">&gt</button>
+    </div>
+    <form>
+        <div>
+            <label for="infinite">Infinite scroll</label>
+            <input type="checkbox" name="infinite" id="check">
+        </div>
+        <div>
+            <label for="autoplay">Autoplay</label>
+            <input type="checkbox" name="autoplay" class="auto">
+        </div>
+        <div>
+            <label for="autoplaye">Autoplay Interval</label>
+            <input type="range" name="autoplaye" class="auto">
+        </div>
+    </form>
+</body>
+<script src="index.js"></script>
+</html>

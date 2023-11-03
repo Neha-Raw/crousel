@@ -1,0 +1,22 @@
+body{
+    background-color: lightpink;
+}
+h1{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+body{
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 200px;   
+    border: solid 2px black;    
+}
+button{
+    background-color: aqua;
+    height:50px;
+    width: 50px;
+    border-radius: 30px;
+}
